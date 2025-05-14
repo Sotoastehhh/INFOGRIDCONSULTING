@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Santiago\\source\\repos\\PAGINA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5EEB6B23-B9B4-4F3F-96FB-BD98AD3F79B8}|PAGINA\\PAGINA.csproj|C:\\Users\\Santiago\\source\\repos\\PAGINA\\pagina\\views\\acceso\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5EEB6B23-B9B4-4F3F-96FB-BD98AD3F79B8}|PAGINA\\PAGINA.csproj|c:\\users\\santiago\\source\\repos\\pagina\\pagina\\views\\acceso\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5EEB6B23-B9B4-4F3F-96FB-BD98AD3F79B8}|PAGINA\\PAGINA.csproj|solutionrelative:pagina\\views\\acceso\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -98,8 +98,7 @@
               "RelativeToolTip": "PRUEBA SELENIUM\\UnitTest1.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAmwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T14:52:09.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T14:52:09.666Z"
             },
             {
               "$type": "Document",
@@ -109,7 +108,7 @@
               "RelativeDocumentMoniker": "PAGINA\\Views\\Acceso\\Login.cshtml",
               "ToolTip": "C:\\Users\\Santiago\\source\\repos\\PAGINA\\PAGINA\\Views\\Acceso\\Login.cshtml",
               "RelativeToolTip": "PAGINA\\Views\\Acceso\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-14T13:43:39.631Z",
               "EditorCaption": ""
