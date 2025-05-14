@@ -1,0 +1,83 @@
+﻿@model PAGINA.Models.Productos
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Productos</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombre_producto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombre_producto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.precio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.precio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.stock)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.stock)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha_entrada)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha_entrada)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha_expiracion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha_expiracion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.codigo_barras)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.codigo_barras)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Categorias_Productos.nombre_categoria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Categorias_Productos.nombre_categoria)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Proveedores.nombre_proveedor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Proveedores.nombre_proveedor)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID_producto }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

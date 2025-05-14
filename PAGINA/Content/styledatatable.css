@@ -1,0 +1,62 @@
+﻿/* Estilos personalizados para la tabla */
+.table-custom {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 20px 0;
+	font-size: 16px;
+}
+
+	.table-custom th, .table-custom td {
+		padding: 12px;
+		text-align: left;
+		border: 1px solid #ddd;
+	}
+
+	.table-custom th {
+		background-color: #4CAF50;
+		color: white;
+	}
+
+	.table-custom tr:nth-child(even) {
+		background-color: #f2f2f2;
+	}
+
+	.table-custom tr:hover {
+		background-color: #ddd;
+	}
+
+/* Estilo para los botones */
+.btn-custom {
+	padding: 6px 12px;
+	font-size: 14px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.btn-custom-info {
+	background-color: #17a2b8;
+	color: white;
+}
+
+	.btn-custom-info:hover {
+		background-color: #138496;
+	}
+
+.btn-custom-warning {
+	background-color: #ffc107;
+	color: black;
+}
+
+	.btn-custom-warning:hover {
+		background-color: #e0a800;
+	}
+
+.btn-custom-danger {
+	background-color: #dc3545;
+	color: white;
+}
+
+	.btn-custom-danger:hover {
+		background-color: #c82333;
+	}

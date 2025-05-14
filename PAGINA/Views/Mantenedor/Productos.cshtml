@@ -1,0 +1,147 @@
+﻿
+@{
+    ViewBag.Title = "Productos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<head>
+
+    @Styles.Render("~/Content/css")
+
+</head>
+
+<div class="card">
+    <div class="card-header">
+        Productos
+    </div>
+    <div class="card-body">
+        <div class=" row">
+            <div class=" col-12">
+                <button type="button" class="btn btn-success" onclick="abrirModal()">Agregar</button>
+            </div>
+        </div>
+        <hr />
+        <table id="tabla" class="display cell-border" style=" width: 100%">
+            <thead>
+                <tr>
+                    <th> Id Producto</th>
+                    <th> Id categoria</th>
+                    <th> Nombre</th>
+                    <th> precio</th>
+                    <th> stock</th>
+                    <th>Opciones</th>
+
+                </tr>
+            </thead>
+
+        </table>
+
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="FormModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                
+                <div class="row">
+                    <div class="col-ms-6">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre producto</label>
+                        <input type="text" class="form-control" id="txtnombres" >
+                    </div>
+                    <div class="col-ms-6">
+                        <label for="exampleFormControlInput1" class="form-label">Precio</label>
+                        <input type="text" class="form-control" id="txtprecios" >
+                    </div>
+                    <div class="col-ms-6">
+                        <label for="exampleFormControlInput1" class="form-label">Stock</label>
+                        <input type="text" class="form-control" id="txtstock" >
+                    </div>
+                    <div class="col-ms-6">
+                        <label for="exampleFormControlInput1" class="form-label">ID_Categoria</label>
+                        <input type="text" class="form-control" id="txtCategoria">
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+@section scripts{
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/complementos")
+    @Scripts.Render("~/bundles/bootstrap")
+
+
+    <script>
+        var tabladata;
+
+  
+    $(document).ready(function () {
+        tabladata = $("#tabla").DataTable({
+
+            responsive: true,
+            ordering: false,
+            "ajax": {
+
+                url: '@Url.Action("ListarProductos", "Home")',
+                "type": 'GET',
+                dataType: "json"
+            },
+            "columns": [
+                { "data": "ID_Producto" },
+                { "data": "ID_categoria" },
+                { "data": "Nombre_producto" },
+                { "data": "Precio" },
+                { "data": "Stock" },
+                {
+                    "defaultContent": '<button type="button" class="btn btn-primary btn-sm btn-editar"><i class="fas fa-pen"></i></button>' +
+                        '<button type="button" class="btn btn-danger btn-sm ms-2"><i class="fas fa-trash"></i></button>'
+                }
+
+
+            ]
+        });
+        
+        }
+
+
+
+)
+
+        function abrirModal(json) {
+
+            if (json != null) {
+
+                $("#txtnombres").val(json.Nombre_producto) 
+
+            }
+            $("#FormModal").modal("show");
+        }  
+        $("#tabla tbody").on("click", '.btn-editar', function () {
+            var filaSeleccionada = $(this).closet("tr");
+            var data = tabladata.row(filaSeleccionada).data();
+
+           abrirModal(data)
+        })
+
+
+    </script>
+
+}
+

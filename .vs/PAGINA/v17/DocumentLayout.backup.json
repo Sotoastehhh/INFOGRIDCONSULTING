@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Santiago\\source\\repos\\PAGINA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5EEB6B23-B9B4-4F3F-96FB-BD98AD3F79B8}|PAGINA\\PAGINA.csproj|C:\\Users\\Santiago\\source\\repos\\PAGINA\\pagina\\views\\acceso\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5EEB6B23-B9B4-4F3F-96FB-BD98AD3F79B8}|PAGINA\\PAGINA.csproj|solutionrelative:pagina\\views\\acceso\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39B8150A-EEFF-4D21-9236-7A4EADD4C651}|PRUEBA SELENIUM\\PRUEBA SELENIUM.csproj|c:\\users\\santiago\\source\\repos\\pagina\\prueba selenium\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B8150A-EEFF-4D21-9236-7A4EADD4C651}|PRUEBA SELENIUM\\PRUEBA SELENIUM.csproj|solutionrelative:prueba selenium\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EEB6B23-B9B4-4F3F-96FB-BD98AD3F79B8}|PAGINA\\PAGINA.csproj|C:\\Users\\Santiago\\source\\repos\\PAGINA\\pagina\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EEB6B23-B9B4-4F3F-96FB-BD98AD3F79B8}|PAGINA\\PAGINA.csproj|solutionrelative:pagina\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EEB6B23-B9B4-4F3F-96FB-BD98AD3F79B8}|PAGINA\\PAGINA.csproj|C:\\Users\\Santiago\\source\\repos\\PAGINA\\pagina\\views\\mantenedor\\categorias_productos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5EEB6B23-B9B4-4F3F-96FB-BD98AD3F79B8}|PAGINA\\PAGINA.csproj|solutionrelative:pagina\\views\\mantenedor\\categorias_productos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958EA2B7-DD8F-407D-83CE-3F63E37A102D}|CapaConexion\\CapaConexion.csproj|C:\\Users\\Santiago\\source\\repos\\PAGINA\\capaconexion\\cd_categoriaproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{958EA2B7-DD8F-407D-83CE-3F63E37A102D}|CapaConexion\\CapaConexion.csproj|solutionrelative:capaconexion\\cd_categoriaproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EEB6B23-B9B4-4F3F-96FB-BD98AD3F79B8}|PAGINA\\PAGINA.csproj|C:\\Users\\Santiago\\source\\repos\\PAGINA\\pagina\\views\\mantenedor\\productos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5EEB6B23-B9B4-4F3F-96FB-BD98AD3F79B8}|PAGINA\\PAGINA.csproj|solutionrelative:pagina\\views\\mantenedor\\productos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958EA2B7-DD8F-407D-83CE-3F63E37A102D}|CapaConexion\\CapaConexion.csproj|C:\\Users\\Santiago\\source\\repos\\PAGINA\\capaconexion\\cd_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{958EA2B7-DD8F-407D-83CE-3F63E37A102D}|CapaConexion\\CapaConexion.csproj|solutionrelative:capaconexion\\cd_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4210AD-4BA5-4826-8A61-201F9A57CB95}|CapaDatos\\CapaDatos.csproj|C:\\Users\\Santiago\\source\\repos\\PAGINA\\capadatos\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4210AD-4BA5-4826-8A61-201F9A57CB95}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EEB6B23-B9B4-4F3F-96FB-BD98AD3F79B8}|PAGINA\\PAGINA.csproj|C:\\Users\\Santiago\\source\\repos\\PAGINA\\pagina\\views\\home\\cerrarsesion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5EEB6B23-B9B4-4F3F-96FB-BD98AD3F79B8}|PAGINA\\PAGINA.csproj|solutionrelative:pagina\\views\\home\\cerrarsesion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EEB6B23-B9B4-4F3F-96FB-BD98AD3F79B8}|PAGINA\\PAGINA.csproj|C:\\Users\\Santiago\\source\\repos\\PAGINA\\PAGINA\\Models\\Usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EEB6B23-B9B4-4F3F-96FB-BD98AD3F79B8}|PAGINA\\PAGINA.csproj|solutionrelative:PAGINA\\Models\\Usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{be4d7042-ba3f-11d2-840e-00c04f9902c1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{007a3a6b-b5b2-454d-a2bd-cf929f989be2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccesoController.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\source\\repos\\PAGINA\\PAGINA\\Controllers\\AccesoController.cs",
+              "RelativeDocumentMoniker": "PAGINA\\Controllers\\AccesoController.cs",
+              "ToolTip": "C:\\Users\\Santiago\\source\\repos\\PAGINA\\PAGINA\\Controllers\\AccesoController.cs",
+              "RelativeToolTip": "PAGINA\\Controllers\\AccesoController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAswC4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T15:10:14.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\source\\repos\\PAGINA\\PRUEBA SELENIUM\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "PRUEBA SELENIUM\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Santiago\\source\\repos\\PAGINA\\PRUEBA SELENIUM\\UnitTest1.cs",
+              "RelativeToolTip": "PRUEBA SELENIUM\\UnitTest1.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T14:52:09.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Santiago\\source\\repos\\PAGINA\\PAGINA\\Views\\Acceso\\Login.cshtml",
+              "RelativeDocumentMoniker": "PAGINA\\Views\\Acceso\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Santiago\\source\\repos\\PAGINA\\PAGINA\\Views\\Acceso\\Login.cshtml",
+              "RelativeToolTip": "PAGINA\\Views\\Acceso\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T13:43:39.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Categorias_productos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Santiago\\source\\repos\\PAGINA\\PAGINA\\Views\\Mantenedor\\Categorias_productos.cshtml",
+              "RelativeDocumentMoniker": "PAGINA\\Views\\Mantenedor\\Categorias_productos.cshtml",
+              "ToolTip": "C:\\Users\\Santiago\\source\\repos\\PAGINA\\PAGINA\\Views\\Mantenedor\\Categorias_productos.cshtml",
+              "RelativeToolTip": "PAGINA\\Views\\Mantenedor\\Categorias_productos.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAGIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T05:10:42.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CD_CategoriaProductos.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\source\\repos\\PAGINA\\CapaConexion\\CD_CategoriaProductos.cs",
+              "RelativeDocumentMoniker": "CapaConexion\\CD_CategoriaProductos.cs",
+              "ToolTip": "C:\\Users\\Santiago\\source\\repos\\PAGINA\\CapaConexion\\CD_CategoriaProductos.cs",
+              "RelativeToolTip": "CapaConexion\\CD_CategoriaProductos.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T05:22:13.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CD_productos.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\source\\repos\\PAGINA\\CapaConexion\\CD_productos.cs",
+              "RelativeDocumentMoniker": "CapaConexion\\CD_productos.cs",
+              "ToolTip": "C:\\Users\\Santiago\\source\\repos\\PAGINA\\CapaConexion\\CD_productos.cs",
+              "RelativeToolTip": "CapaConexion\\CD_productos.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T05:21:20.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Productos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Santiago\\source\\repos\\PAGINA\\PAGINA\\Views\\Mantenedor\\Productos.cshtml",
+              "RelativeDocumentMoniker": "PAGINA\\Views\\Mantenedor\\Productos.cshtml",
+              "ToolTip": "C:\\Users\\Santiago\\source\\repos\\PAGINA\\PAGINA\\Views\\Mantenedor\\Productos.cshtml",
+              "RelativeToolTip": "PAGINA\\Views\\Mantenedor\\Productos.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T03:05:00.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Proveedores.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\source\\repos\\PAGINA\\CapaDatos\\Proveedores.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\Proveedores.cs",
+              "ToolTip": "C:\\Users\\Santiago\\source\\repos\\PAGINA\\CapaDatos\\Proveedores.cs",
+              "RelativeToolTip": "CapaDatos\\Proveedores.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T03:27:10.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CerrarSesion.cshtml",
+              "DocumentMoniker": "C:\\Users\\Santiago\\source\\repos\\PAGINA\\PAGINA\\Views\\Home\\CerrarSesion.cshtml",
+              "RelativeDocumentMoniker": "PAGINA\\Views\\Home\\CerrarSesion.cshtml",
+              "ToolTip": "C:\\Users\\Santiago\\source\\repos\\PAGINA\\PAGINA\\Views\\Home\\CerrarSesion.cshtml",
+              "RelativeToolTip": "PAGINA\\Views\\Home\\CerrarSesion.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T16:26:17.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\source\\repos\\PAGINA\\PAGINA\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "PAGINA\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Santiago\\source\\repos\\PAGINA\\PAGINA\\Models\\Usuario.cs",
+              "RelativeToolTip": "PAGINA\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T16:42:02.487Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

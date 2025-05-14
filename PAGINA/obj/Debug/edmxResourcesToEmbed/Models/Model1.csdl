@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KERLY6Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Categorias_Productos">
+    <Key>
+      <PropertyRef Name="ID_categoria" />
+    </Key>
+    <Property Name="ID_categoria" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre_categoria" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Productos" Relationship="Self.fk_producto_categoria" FromRole="Categorias_Productos" ToRole="Productos" />
+  </EntityType>
+  <EntityType Name="Productos">
+    <Key>
+      <PropertyRef Name="ID_producto" />
+    </Key>
+    <Property Name="ID_producto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre_producto" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ID_categoria" Type="Int32" Nullable="false" />
+    <Property Name="precio" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="stock" Type="Int32" Nullable="false" />
+    <Property Name="ID_proveedor" Type="Int32" Nullable="false" />
+    <Property Name="fecha_entrada" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="fecha_expiracion" Type="DateTime" Precision="0" />
+    <Property Name="codigo_barras" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Categorias_Productos" Relationship="Self.fk_producto_categoria" FromRole="Productos" ToRole="Categorias_Productos" />
+    <NavigationProperty Name="Proveedores" Relationship="Self.fk_producto_proveedor" FromRole="Productos" ToRole="Proveedores" />
+  </EntityType>
+  <EntityType Name="Proveedores">
+    <Key>
+      <PropertyRef Name="ID_proveedor" />
+    </Key>
+    <Property Name="ID_proveedor" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre_proveedor" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="contacto" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+    <Property Name="telefono" Type="String" MaxLength="120" FixedLength="false" Unicode="false" />
+    <Property Name="direccion" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="correo_electronico" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Productos" Relationship="Self.fk_producto_proveedor" FromRole="Proveedores" ToRole="Productos" />
+  </EntityType>
+  <Association Name="fk_producto_categoria">
+    <End Role="Categorias_Productos" Type="Self.Categorias_Productos" Multiplicity="1" />
+    <End Role="Productos" Type="Self.Productos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categorias_Productos">
+        <PropertyRef Name="ID_categoria" />
+      </Principal>
+      <Dependent Role="Productos">
+        <PropertyRef Name="ID_categoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_producto_proveedor">
+    <End Role="Proveedores" Type="Self.Proveedores" Multiplicity="1" />
+    <End Role="Productos" Type="Self.Productos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proveedores">
+        <PropertyRef Name="ID_proveedor" />
+      </Principal>
+      <Dependent Role="Productos">
+        <PropertyRef Name="ID_proveedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="KERLY3" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Categorias_Productos" EntityType="Self.Categorias_Productos" />
+    <EntitySet Name="Productos" EntityType="Self.Productos" />
+    <EntitySet Name="Proveedores" EntityType="Self.Proveedores" />
+    <AssociationSet Name="fk_producto_categoria" Association="Self.fk_producto_categoria">
+      <End Role="Categorias_Productos" EntitySet="Categorias_Productos" />
+      <End Role="Productos" EntitySet="Productos" />
+    </AssociationSet>
+    <AssociationSet Name="fk_producto_proveedor" Association="Self.fk_producto_proveedor">
+      <End Role="Proveedores" EntitySet="Proveedores" />
+      <End Role="Productos" EntitySet="Productos" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

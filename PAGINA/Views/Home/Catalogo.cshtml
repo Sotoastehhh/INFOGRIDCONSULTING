@@ -1,0 +1,27 @@
+﻿@model List<PAGINA.Models.Productos>
+
+@{
+    ViewBag.Title = "Catálogo de Productos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Catálogo de Productos</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var item in Model)
+        {
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="@item.ImagenProductoUrl" class="card-img-top" alt="Imagen del producto" style="height: 200px; object-fit: contain;"
+                         onerror="this.src='/Content/ImagenesProductos/default.jpg';" />
+                    <img src="@item.ImagenQRUrl" class="card-img-top" alt="Código QR del producto" style="height: 100px; object-fit: contain;" />
+                    <div class="card-body">
+                        <h5 class="card-title">@item.nombre_producto</h5>
+                        <p class="card-text">Precio: $@item.precio.ToString("N0")</p>
+                        <p class="card-text">Stock: @item.stock</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="KERLY6ModelStoreContainer" CdmEntityContainer="KERLY3">
+    <EntitySetMapping Name="Categorias_Productos">
+      <EntityTypeMapping TypeName="KERLY6Model.Categorias_Productos">
+        <MappingFragment StoreEntitySet="Categorias_Productos">
+          <ScalarProperty Name="ID_categoria" ColumnName="ID_categoria" />
+          <ScalarProperty Name="nombre_categoria" ColumnName="nombre_categoria" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Productos">
+      <EntityTypeMapping TypeName="KERLY6Model.Productos">
+        <MappingFragment StoreEntitySet="Productos">
+          <ScalarProperty Name="ID_producto" ColumnName="ID_producto" />
+          <ScalarProperty Name="nombre_producto" ColumnName="nombre_producto" />
+          <ScalarProperty Name="ID_categoria" ColumnName="ID_categoria" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+          <ScalarProperty Name="stock" ColumnName="stock" />
+          <ScalarProperty Name="ID_proveedor" ColumnName="ID_proveedor" />
+          <ScalarProperty Name="fecha_entrada" ColumnName="fecha_entrada" />
+          <ScalarProperty Name="fecha_expiracion" ColumnName="fecha_expiracion" />
+          <ScalarProperty Name="codigo_barras" ColumnName="codigo_barras" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proveedores">
+      <EntityTypeMapping TypeName="KERLY6Model.Proveedores">
+        <MappingFragment StoreEntitySet="Proveedores">
+          <ScalarProperty Name="ID_proveedor" ColumnName="ID_proveedor" />
+          <ScalarProperty Name="nombre_proveedor" ColumnName="nombre_proveedor" />
+          <ScalarProperty Name="contacto" ColumnName="contacto" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="correo_electronico" ColumnName="correo_electronico" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
