@@ -24,6 +24,7 @@ namespace PAGINA.Controllers
         return View();
     }
 
+    // Esto es un cambio de prueba para CI/CD
 
     public ActionResult Registrar()
     {
